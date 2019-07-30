@@ -1,7 +1,7 @@
 [
   {
-    "repository": "android_kernel_bq_sdm660",
-    "target_path": "kernel/bq/sdm660"
+    "repository": "android_kernel_gm_sdm660",
+    "target_path": "kernel/gm/sdm660"
   },
   {
     "repository": "android_packages_resources_devicesettings",
