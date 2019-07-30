@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-COMMON_PATH := device/bq/sdm660-common
+COMMON_PATH := device/gm/sdm660-common
 
 TARGET_SPECIFIC_HEADER_PATH := $(COMMON_PATH)/include
 
@@ -139,7 +139,7 @@ BOARD_KERNEL_PAGESIZE := 4096
 BOARD_KERNEL_TAGS_OFFSET := 0x02000000
 BOARD_RAMDISK_OFFSET := 0x02200000
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
-TARGET_KERNEL_SOURCE := kernel/bq/sdm660
+TARGET_KERNEL_SOURCE := kernel/gm/sdm660
 
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
