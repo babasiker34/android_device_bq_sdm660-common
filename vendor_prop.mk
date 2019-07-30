@@ -1,5 +1,5 @@
 #
-# vendor props for zangya
+# vendor props for gm9pro
 #
 
 
@@ -53,9 +53,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.camera.aux.packagelist="org.codeaurora.snapcam,com.bq.camerabq,com.bq.camerabq.debug,org.lineageos.snap" \
+    vendor.camera.aux.packagelist="org.codeaurora.snapcam,com.gm.cameragm,com.gm.cameragm.debug,org.lineageos.snap" \
     vidc.enc.dcvs.extra-buff-count=2 \
-    persist.vendor.camera.customer.config=zangya_camera.xml \
+    persist.vendor.camera.customer.config=gm9pro_camera.xml \
     persist.vendor.camera.exif.rotation=off \
     persist.vendor.camera.expose.aux=1 \
     persist.vendor.camera.hvx.rotation=1 \
@@ -84,7 +84,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Google
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.com.google.clientidbase=android-bq
+    ro.com.google.clientidbase=android-gm
 
 # Factory reset partition
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -107,11 +107,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.RATE_ADAPT_ENABLE=1 \
     persist.dbg.wfc_avail_ovr=0 \
     persist.data.iwlan.enable=true
-
-# NFC
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.nfc.smartcard.config=SIM1 \
-    ro.nfc.port=I2C
 
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
